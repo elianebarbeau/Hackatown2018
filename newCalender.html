@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RezyYourTown</title>
+    <link rel="stylesheet" href="newSchedule.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="display:flex;justify-content:center;">
+        <h1>Semaine du 22 au 27 Janvier</h1>
+      </div>
+
+      <div class="schedule">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Lundi</th>
+              <th scope="col">Mardi</th>
+              <th scope="col">Mercredi</th>
+              <th scope="col">Jeudi</th>
+              <th scope="col">Vendredi</th>
+              <th scope="col">Samedi</th>
+              <th scope="col">Dimanche</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">8h00-9h00</th>
+              <td class="isReserved"></td>
+              <td id="willBeReserved"></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">9h00-10h00</th>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">10h00-11h00</th>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">11h00-12h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">12h00-13h00</th>
+              <td></td>
+              <td class="isReserved"></td>
+              <td class="isReserved"></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">13h00-14h00</th>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">14h00-15h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td class="isReserved"></td>
+            </tr>
+            <tr>
+              <th scope="row">15h00-16h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">16h00-17h00</th>
+              <td class="isReserved"></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">17h00-18h00</th>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">18h00-19h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">19h00-20h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">20h00-21h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="isReserved"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">21h00-22h00</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modalCalender" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Réservation de plage horaire</h2>
+          </div>
+          <div class="modal-body">
+            <div id="textModal"></div>
+            <button id="btnCalender" type="button" name="button" onclick="closeModal(document.getElementById('btnCalender').innerHTML)"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="reserved.js"></script>
+  </body>
+</html>

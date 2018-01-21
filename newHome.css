@@ -1,0 +1,94 @@
+.container-grid {
+  display : grid;
+  grid-template-columns : 20vw auto;
+  grid-template-rows : 10vh auto;
+  width : 100%;
+  height : 100vh;
+}
+.header {
+  display : flex;
+  justify-content : center;
+  border-bottom : 2px solid white;
+  color : white;
+  height : 10vh;
+}
+.side {
+  padding : 30px;
+  /* display : grid;
+  grid-template-rows : 10vh auto;
+  justify-items : center;
+  align-content : space-around; */
+  border-right : 2px solid white;
+  height : 100vh;
+  color : white;
+}
+.listeLieux {
+  display : flex;
+  flex-direction : column;
+  justify-content : space-around;
+  align-items : center;
+  height : 90vh;
+}
+.map, #map {
+  height : 90vh !important;
+}
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #white;
+}
+.btn-primary-outline:hover {
+  color : red;
+}
+.modal-content {
+  top : -20px;
+  width : 600px;
+  height : 97vh;
+}
+.modal-body {
+  display : flex;
+  flex-direction : column;
+
+}
+.modalLeft, .modalRight {
+  display : flex;
+  text-align : center;
+}
+.modalRight {
+  width : 100%;
+  padding : 25px;
+  justify-content : space-around;
+
+}
+.modalImage img {
+  width : 250px;
+  height : 200px;
+}
+.modalSchedule {
+  width : 200px;
+  height : 350px;
+}
+.todaySchedule {
+  overflow : scroll;
+  height : 350px;
+}
+.modalActions {
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items : center;
+  width : 200px;
+  height : 350px;
+}
+.hourSchedule {
+  width : 100%;
+  height : 100px;
+  padding : 20px;
+}
+.isReserved {
+  background-color : #ff6347;
+}
+
+.lieu {
+  
+  border-bottom : 2px solid white;
+}

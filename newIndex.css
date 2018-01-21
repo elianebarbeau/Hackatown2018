@@ -1,0 +1,22 @@
+.container {
+  display : grid;
+  justify-items : center;
+  align-items : center;
+  height : 60vh;
+}
+.flex-container {
+  display : flex;
+}
+.citySelect {
+  width : 400px;
+  height : 50px;
+  font-size : 30px;
+}
+body {
+  background-image:url(images/background.jpg);
+}
+h1 {
+  font-size : 100px;
+  color : white;
+  font-family: 'Kavivanar', cursive;
+}
