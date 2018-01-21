@@ -53,6 +53,8 @@ function createMarker(pos, t, m) {
   return marker;
 }
 
+
+
 function openModal(title) {
   document.getElementById("modalHeader").innerHTML = title;
   document.querySelector(".modalText").innerHTML = title + " est un merveilleux endroit pour se promener"
